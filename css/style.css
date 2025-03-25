@@ -11,10 +11,10 @@ body{background-image: linear-gradient(to left top, #d8dede, #dae0e0, #dbe3e3, #
     background-color: #313336;
     border-color: #313336;
 }
-hr{
-    width: 50%;
-    border: 3px #18C8B5 solid;
-    margin: 5% 5% 5% 25%;
+
+.carousel-item img{
+    margin-top: 2%;
+    height: 60vh;
 }
 
 
@@ -544,8 +544,13 @@ textarea{
     }
     .container-fluid button{
         color: rgb(255, 255, 255);
-        
     }
+
+    .carousel-item img{
+        margin-top: 0.5%;
+        height: 35vh;
+    }
+
     /*section 1 */
     .empresa{
         display: flex;
@@ -560,7 +565,10 @@ textarea{
         color:black;
     }
     /*section 2 */
-    
+    .sabias{
+        background-color: transparent !important;
+        margin-bottom: 2%;
+     }
     
     
     .card-body {
@@ -621,6 +629,7 @@ textarea{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-bottom: 1%;
     }
 
 
@@ -649,6 +658,7 @@ textarea{
         width: 250px;
         margin-bottom: 20px;
         padding: 7px;
+        margin-left: 5%;
         box-sizing: border-box;
         font-size: 17px;
     }
@@ -657,15 +667,16 @@ textarea{
         margin-left: 8%;
         color: rgb(0, 0, 0);
         font-weight: 900;
+        margin-left: 10%;
         border: none;
     }
 
     .boton-form{
         border-radius: 3%;
         background-color: white;
-        padding: 15px;
         font-weight: 900;
-        margin-left: 7%;
+        margin-left: 10%;
+        margin-bottom: 5%;
         text-align: center;
         width: 79.5%;
     }
@@ -716,13 +727,13 @@ textarea{
         justify-content: space-between;
     }
     .container-fluid img{
-        width: 15vw;
+        width: 22vw;
         height: 8vh;
     }
 
     
     .navbar-nav{
-        width: 35%;
+        width: 45%;
     }
 
     .navbar-toggler {
@@ -744,6 +755,12 @@ textarea{
         color: rgb(255, 255, 255);
         
     }
+
+    .carousel-item img{
+        margin-top: 0.5%;
+        height: 60vh;
+    }
+
     /*section 1 */
     .empresa{
         display: flex;
@@ -764,6 +781,11 @@ textarea{
         margin: 2px;
 
     }
+    .sabias{
+        background-color: transparent !important;
+        margin-bottom: 2%;
+     }
+
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -778,6 +800,7 @@ textarea{
     footer{
         background-color: black;
         text-align: center;
+        width: 100%;
     }
 
     footer h2{
@@ -927,6 +950,13 @@ textarea{
         color: rgb(255, 255, 255);
         
     }
+    .carousel-item img{
+        margin-top: 0.5%;
+        height: 60vh;
+    }
+
+    
+
     /*section 1 */
     .empresa{
         display: flex;
@@ -947,6 +977,13 @@ textarea{
         margin: 2px;
 
     }
+
+    .sabias{
+        background-color: transparent !important;
+        margin-bottom: 2%;
+     }
+
+
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -1100,13 +1137,13 @@ textarea{
         justify-content: space-between;
     }
     .container-fluid img{
-        width: 8vw;
-        height: 12vh;
+        width: 15vw;
+        height: 8vh;
     }
 
     
     .navbar-nav{
-        width: 35%;
+        width: 60%;
     }
     .collapse{
         justify-content:flex-end;
@@ -1118,6 +1155,11 @@ textarea{
 
     .carousel-inner{
         margin-top: 5%;
+    }
+
+    .carousel-item img{
+        margin-top: 3%;
+        height: 55vh;
     }
 
     /*section 1 */
@@ -1139,6 +1181,12 @@ textarea{
         text-align: center;
         margin: 2px;
     }
+
+    .sabias{
+        background-color: transparent !important;
+        margin-bottom: 2%;
+     }
+
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -1307,6 +1355,13 @@ textarea{
         margin-inline-end: 1%;
         
     }
+
+    .carousel-item img{
+        margin-top: 2%;
+        height: 60vh;
+    }
+
+
     /*section 1 */
     .empresa{
         display: flex;
@@ -1335,6 +1390,12 @@ textarea{
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
     
     }
+
+    .sabias{
+        background-color: transparent !important;
+        margin-bottom: 2%;
+     }
+
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 1rem;
@@ -1519,6 +1580,13 @@ textarea{
         color: #f9fafa;
         font-family: 'Josefin Sans', sans-serif;;
     }
+
+    .carousel-item img{
+        margin-top: 2%;
+        height: 65vh;
+    }
+
+
     /*section 1 */
     .empresa{
         display: flex;
